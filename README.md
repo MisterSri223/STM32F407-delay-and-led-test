@@ -1,12 +1,17 @@
 # STM32F407 Test Project
 
-This is a PlatformIO project for testing basic peripherals on the STM32F407 MCU.
+This is a [PlatformIO](https://platformio.org/) project for testing basic peripherals on the STM32F407 microcontroller using the PlatformIO environment.
 
 ## Features
+
 - LED blinking
-- Timer delay
-- GPIO setup
+- Timer-based delay
+- GPIO configuration
 
 ## Build Instructions
-1. Open in PlatformIO
-2. Click "Build" or run `pio run`
+
+1. Open the project in [Visual Studio Code](https://code.visualstudio.com/) with the PlatformIO extension installed.
+2. Click **"Build"** in the PlatformIO toolbar, or run the following command in the terminal:
+
+   ```bash
+   pio run
